@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog-Human Years Conversion</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Are We Really Growing Old Together?</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="dogimg">
+                <img src="./Assets/Images/dog-man.jpg" alt="Dog vs. Man">
+            </div>
+            <div class="about">
+                <p>Dogs are man's best friend in the animal kingdom, but have you ever wondered
+                    how old you are relative to your dog's age, or how old your dog is relative
+                    to your age?
+                </p>
+                <p>Well, this dog-human age converter will help you know how you and your dog
+                    measure up!
+                </p>
+            </div>
+        </section>
+
+        <section class="calculate">
+            <h2>Alright, let's get g[r]oing:</h2>
+            <p>NB: The calculation is not rocket science: since dogs generally reach adulthood
+                within the first two years, the formula is fairly simple:
+            </p>
+            <ul>
+                <li>The first 2 years of a dog's life count as 10.5 dog years each.</li>
+                <li>Each year following equates to 4 dog years</li>
+            </ul>
+            <div>
+                <label for="ageInput">Enter your age or your dog's age:</label>
+                <input type="number" id="ageInput" value="40">
+            </div>
+            <div>
+                <button onclick="myFunction ()">Calculate</button>
+            </div>
+        </section>
+
+        <section class="seeage">
+            <p id="result"></p>
+        </section>
+    </main>
+    <script src="index.js"></script>
+
+</body>
+</html>
